@@ -1,6 +1,5 @@
 import requests
 import json
-import multiprocessing as mp
 
 
 class BuddyAPI():

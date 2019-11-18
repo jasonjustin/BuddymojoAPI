@@ -1,5 +1,6 @@
 import argparse
 import buddymojo.buddymojoAPI as b
+import multiprocessing as mp
 from math import floor
 
 api = b.BuddyAPI()
