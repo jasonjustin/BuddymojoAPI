@@ -1,5 +1,5 @@
 import argparse
-from buddymojoAPI import BuddyAPI
+from BuddyMojoAPI import BuddyAPI
 import multiprocessing as mp
 from math import floor
 
