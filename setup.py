@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="buddymojoAPI",  # Replace with your own username
-    version="1.0.6",
+    version="1.0.7",
     author="Jelly Hsu",
     author_email="zxc3.zxc46@gmail.com",
     description="An API of cn.buddymojo.com",
