@@ -1,12 +1,12 @@
 import argparse
-import buddymojo.buddymojoAPI as b
+from BuddyMojoAPI import BuddyAPI
 import multiprocessing as mp
 from math import floor
 
-api = b.BuddyAPI()
+api = BuddyAPI()
 
 parser = argparse.ArgumentParser(
-    description='Version 1.0.0 By squarejellyfish, An API of buddymojo.com, can spam 10/10 message to specific user(s)',
+    description='By squarejellyfish, An API of buddymojo.com, can spam 10/10 message to specific user(s)',
     usage='-s -T [targetID] -t [times] -n [name] [-l] (will show the page url) \n -m -r [start] [end] -n [name]')
 parser.add_argument('-s', '--single', action='store_true',
                     help='Single target mode')
